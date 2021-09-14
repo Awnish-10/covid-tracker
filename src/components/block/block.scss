@@ -1,0 +1,25 @@
+.block {
+	margin: 20px;
+	height: 200px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #c84b31;
+
+	p {
+		font-size: 12px;
+
+		span {
+			font-size: 18px;
+			font-weight: 800;
+		}
+	}
+
+	h1 {
+		font-size: 23px;
+		font-weight: 800;
+		text-shadow: 3px 5px 4px 4px black;
+	}
+}
